@@ -6,7 +6,7 @@ from pylab import *
 
 #print("Give me a Number for the function as input:\n")
 if len(sys.argv)==1:
-    print("USAGE:\n 1: f(x)=x;\n")
+    print("USAGE:\n 1: f(x)=x;\n 2: f(x)=x^2;\n 3: f(x)=x^3;")
     sys.exit()
 else:
     f=int(sys.argv[1])
