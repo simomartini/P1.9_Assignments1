@@ -2,8 +2,9 @@
 
 import sys
 from numpy import *
+from pylab import * 
 
-print("Give me a Number for the function as input:\n")
+#print("Give me a Number for the function as input:\n")
 f=int(sys.argv[1])
 
 start=-5.0
@@ -11,3 +12,9 @@ stop=5.0
 step=0.1
 
 xval=arange(start,stop,step)
+
+if f==1:
+    yval=xval
+
+plot(xval,yval)
+show()
