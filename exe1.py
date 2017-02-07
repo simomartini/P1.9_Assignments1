@@ -11,8 +11,8 @@ if len(sys.argv)==1:
 else:
     f=int(sys.argv[1])
 
-start=-5.0
-stop=5.0
+start=-3.0
+stop=3.0
 step=0.1
 
 xval=arange(start,stop,step)
