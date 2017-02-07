@@ -5,7 +5,11 @@ from numpy import *
 from pylab import * 
 
 #print("Give me a Number for the function as input:\n")
-f=int(sys.argv[1])
+if len(sys.argv)==1:
+    print("USAGE:\n 1: f(x)=x;\n")
+    sys.exit()
+else:
+    f=int(sys.argv[1])
 
 start=-5.0
 stop=5.0
