@@ -15,6 +15,10 @@ xval=arange(start,stop,step)
 
 if f==1:
     yval=xval
+elif f==2:
+    yval=xval**2
+elif f==3:
+    yval=xval**3
 
 plot(xval,yval)
 show()
