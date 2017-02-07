@@ -15,6 +15,12 @@ xval=arange(start,stop,step)
 
 if f==1:
     yval=xval
+elif f==2:
+    yval=sin(xval)
+elif f==3:
+    yval=exp(xval)
+elif f==4:
+    yval=tan(xval)
 
 plot(xval,yval)
 show()
